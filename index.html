@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event){
+                if (this.hash !== ""){
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800,function(){
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="banner" id="home">
+
+        <div class="navbar">
+            <div class="logo"> ALL ABOUT ME </div>
+            <ul>
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#info"> MY INFO </a></li>
+                <li><a href="#skills"> MY SKILLS </a></li>
+                <li><a href="#experience"> MY EXPERIENCE</a></li>
+                <li><a href="#gallery"> MY GALLERY </a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1> WELCOME TO MY LIFE</h1>
+            <p> For more information please subscribe to my channel. </p>
+
+            <div class="button">
+                <button type="button"><span></span> READ MORE </button>
+                <button type="button"><span></span> WATCH MORE </button>
+    
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <div class="about-section" id="info">
+
+        <div class="heading">
+            <h1> About ME</h1>
+            <p>This page contains about My Self</p>
+        </div>
+
+
+        <div class="container">
+
+            <section class="about">
+                <div class="about-image">
+                    <img src="img/5.jpg" width="60%">
+                </div>
+
+                <div class="about-content">
+                    <h2>About Me</h2>
+                    <p>I'm Ma.Quennie Lozada 20 years old,  I am an independent and determined learner. I recently studying at PHINMA 
+                        University of Iloilo taking a Bachelor degree of Information Technology and I was 3rd year college right now.
+                        I come from a simple family. I'm a nice and a kind girl. My Father is a Farmer and My Mother is a Housewife.
+                        I have three siblings, the elder brother has a work and my two sibling are studing. </p>
+
+                        <a href="#" class="read-more"> Read More </a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+    <div class="nav" id="skills">
+
+        <div class="heading">
+            <h1> MY SKILLS</h1>
+            <p>This page contains about my skills</p>
+        </div>
+
+    </div>
+
+    <figure class="snip1533">
+
+        <figcaption>
+
+            <h3>TIME MANAGEMENT</h3>
+
+          <blockquote>
+            <p>l balance many responsibilities and unsupervised free time.I
+                Set time to study, work and socialize to everyone.</p>
+          </blockquote>
+
+
+        </figcaption>
+
+    </figure>
+
+    <figure class="snip1533">
+
+        <figcaption>
+
+            <h3>ACTIVE LISTENING</h3>
+
+          <blockquote>
+            <p>I am an active listener,I listen attentively to a speaker
+                and understant what they're saying.</p>
+          </blockquote>
+
+        </figcaption>
+
+    </figure>
+
+    <figure class="snip1533">
+
+        <figcaption>
+
+            <h3>CREATIVITY</h3>
+
+          <blockquote>
+            <p>My ability to come up with new or imaginative ideas and turn them into reality.
+                 This skill helps me to generate original ideas.</p>
+          </blockquote>
+          
+        </figcaption>
+    </figure>
+
+    <div class="blog-section" id="experience">
+        <div class="section-content">
+            <div class="title">
+                <h2>MY EXPERIENCES</h2>
+                <p>The pictures bellow is my experiences as a College Student of 
+                    PHINMA University of Iloilo
+                </p></br>
+            </div>
+            <div class="cards">
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/7.jpeg">
+                    </div>
+
+                    <div class="article">
+                        <h4>ARDUINO DEFENSE</h4>
+                        <p>This is my first time doing this kind of event, I feel uncomfortable because i don't know if i can do it
+                            but at the end, we succeed.
+                        </p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button">Read More</a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Taken: March 24,2023</p>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/8.jpeg">
+                    </div>
+
+                    <div class="article">
+                        <h4>CITEMAS</h4>
+                        <p>Being part of a CITEMAS is a big opportunity for me to 
+                            able to socialize with other people, it leads me to overcoming my fear as a shy type kind of person.
+                        </p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button">Read More</a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Taken: November 15,2022</p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/3.jpg">
+                    </div>
+
+                    <div class="article">
+                        <h4>CITE WEEK</h4>
+                        <p>This is the first time that me and my friends participating on the competition in school.</p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button">Read More</a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Taken: October 5,2022</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
+    </div>
+
+    <div class="gallery" id="gallery">
+
+        <input type="radio" name="photos" id="check1" checked>
+        <input type="radio" name="photos" id="check2">
+        <input type="radio" name="photos" id="check3">
+        <input type="radio" name="photos" id="check4">
+
+        <div class="gallery-container">
+            <h1>MY GALLERY</h1>
+            <div class="top-content">
+                <h3>Photo Gallery</h3>
+                <label for="check1">All Photos</label>
+                <label for="check2">Friends Photos</label>
+                <label for="check3">Events Photos</label>
+                <label for="check4">Swimming Photos</label>
+            </div>
+
+            <div class="photo-gallery">
+                
+                <div class="pic Friends">
+                    <img src="img/a.jpeg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/g.jpeg">
+                </div>
+
+                <div class="pic Swimming">
+                    <img src="img/i.jpeg">
+                </div>
+
+                <div class="pic Friends">
+                    <img src="img/b.jpeg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/f.jpeg">
+                </div>
+
+                <div class="pic Swimming">
+                    <img src="img/j.jpeg">
+                </div>
+
+                <div class="pic Friends">
+                    <img src="img/c.jpeg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/e.jpeg">
+                </div>
+
+                <div class="pic Swimming">
+                    <img src="img/k.jpeg">
+                </div>
+
+                <div class="pic Friends">
+                    <img src="img/d.jpeg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/h.jpeg">
+                </div>
+
+                <div class="pic Swimming">
+                    <img src="img/l.jpeg">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook-official"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-youtube-play"></i></a>
+            </div>
+                <p class="copyright">Manage and Created by QUENNIE @ 2023</p>
+        </footer>
+    </div>
+
+    <a href="#home" id="myBtn" title="Go to top">TOP</a>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                mybutton.style.display = "block";
+            }else{
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
+    
+</body>
+</html>
+
+
+
+
